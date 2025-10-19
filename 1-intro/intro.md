@@ -1,3 +1,4 @@
+[← Back to Home](../README.md)
 
 # Introduction 
 Before diving into programming, it’s important to see how things actually work - not just in theory, but in motion. Think about how people communicate: when you speak, your voice travels as sound waves. The person you’re talking to receives those waves through their ears, turns them into signals, and their brain translates those signals into meaning.
