@@ -1,14 +1,10 @@
 
 # Dev Handbook 
-A practical guide to understanding how programs think and data moves. 
-
-# 🧭 Developer Handbook
-
-A complete, step-by-step guide to learning programming, computer science, and professional development — from the basics to deployment and beyond.
+A complete, step-by-step guide to learning programming, computer science, and professional development.
 
 ---
 
-## 📘 Table of Contents
+## Contents
 
 ### 1️⃣ Introduction
 - [Intro](1-intro/intro.md)
