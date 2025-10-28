@@ -1,0 +1,50 @@
+# --- Core Web Framework ---
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+
+# --- Data Validation / Schema ---
+pydantic==2.9.2
+pydantic-settings
+python-multipart==0.0.12
+
+# --- Security / Hashing / Cryptography ---
+passlib[bcrypt]==1.7.4         # Password hashing (bcrypt)
+itsdangerous==2.2.0            # HMAC signing (safe serialization)
+cryptography==43.0.3           # AES, RSA, certificate handling
+pyjwt==2.9.0                   # JWT signing/verification demo
+argon2-cffi==23.1.0            # Optional modern password hashing
+# hmac==2024.9.1                 # Explicit HMAC testing (Python stdlib backport safe)
+
+# --- HTTP / Networking ---
+requests                       # For HTTP test calls
+httpx==0.27.2                  # Async HTTP client (used in FastAPI tests)
+aiofiles==24.1.0               # Async file IO if needed for file permission labs
+
+# --- Logging / Observability ---
+loguru==0.7.2                  # Pretty structured logs
+python-json-logger==3.2.1      # JSON-safe logging outputs for security audits
+
+# --- Static Code Analysis / Security Scanning ---
+bandit==1.7.9                  # Security vulnerability linter
+pylint==3.3.1                  # Code linting (style + errors)
+flake8==7.1.1                  # Lightweight linter for quick scans
+mccabe==0.7.0                  # Complexity checker (used by flake8)
+black==24.10.0                 # Autoformatter for style consistency
+isort==5.13.2                  # Import sorting
+
+# --- Testing & Code Coverage ---
+pytest==8.3.3                  # Core test framework
+pytest-cov==5.0.0              # Code coverage plugin
+pytest-asyncio==0.24.0         # For async endpoint tests
+coverage==7.6.1                # Standalone coverage reporting
+requests-mock==1.12.1          # Mock HTTP responses for API test labs
+
+# --- Type Checking & Developer Experience ---
+mypy==1.13.0                   # Type analysis
+types-requests
+types-PyYAML==6.0.12.20240917
+rich==13.9.4                   # Beautiful console output
+
+# --- Optional Dev Tools ---
+pre-commit==4.0.1              # Auto-lint hooks
+ipython==8.28.0                # Interactive REPL debugging
